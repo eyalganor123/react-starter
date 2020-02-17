@@ -3,7 +3,7 @@ import { Drawer } from '@material-ui/core';
 
 export const StyledDrawer = styled(Drawer)`
   > div:nth-child(2) {
-    width: 120px!important;
+    width: 300px!important;
     background: ${({ theme }) => theme.primary_dark}
   }
 
@@ -78,7 +78,7 @@ export const Logo = styled.div`
   border-right: none;
   display: flex;
   justify-content: center;
-  height: 60px;
+  height: 100px;
 `;
 
 export const WrapperRtl = styled(Wrapper)`
