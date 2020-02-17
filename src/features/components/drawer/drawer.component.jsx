@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import HomeIcon from '@material-ui/icons/Home';
 import DashboardIcon from '@material-ui/icons/Dashboard';
-import {
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';import {
   MenuItem,
   ExpansionPanel,
   ListItemText,
@@ -53,6 +53,12 @@ const DrawerComponent = ({
           to={ROUTES.about}
           icon={<DashboardIcon />}
           label={t('ABOUT_PAGE')}
+          closeDrawer={closeDrawer}
+        />
+        <DrawerLink
+          to={ROUTES.shit}
+          icon={<ArrowForwardIosIcon/>}
+          label={t('SHIT_PAGE')}
           closeDrawer={closeDrawer}
         />
 

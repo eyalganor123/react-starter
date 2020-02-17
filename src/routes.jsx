@@ -9,6 +9,7 @@ import DefaultLayout from './features/pages/default-layout/default-layout.page.j
 import i18n from './i18n';
 import HomePage from './features/pages/home/home.page.jsx';
 import AboutPage from './features/pages/about/about.page.jsx';
+import ShitPage from './features/pages/shit/shit.jsx';
 import { ROUTES } from './common/constants';
 import DefaultTheme from './assets/themes/default';
 
@@ -23,6 +24,7 @@ const Root = ({ store }) => ({
                 <Switch>
                   <DefaultLayout path={ROUTES.home} component={HomePage} />
                   <DefaultLayout path={ROUTES.about} component={AboutPage} />
+                  <DefaultLayout path={ROUTES.shit} component={ShitPage} />
                 </Switch>
               </App>
             </Router>
