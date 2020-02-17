@@ -61,6 +61,12 @@ const DrawerComponent = ({
           label={t('SHIT_PAGE')}
           closeDrawer={closeDrawer}
         />
+        <DrawerLink
+          to={ROUTES.super}
+          icon={<ArrowForwardIosIcon/>}
+          label={t('SUPER_PAGE')}
+          closeDrawer={closeDrawer}
+        />
 
         {/* Language Switcher */}
         <ExpansionPanel style={{ margin: 0, background: 'inherit' }}>
