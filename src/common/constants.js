@@ -7,7 +7,8 @@ export const ROUTES = {
   home: '/home',
   about: '/about',
   shit: '/shit',
-  super: '/super'
+  super: '/super',
+  form: '/form'
 };
 
 export const mobileMaxWidth = 1023;

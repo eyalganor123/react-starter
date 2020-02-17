@@ -11,6 +11,7 @@ import HomePage from './features/pages/home/home.page.jsx';
 import AboutPage from './features/pages/about/about.page.jsx';
 import ShitPage from './features/pages/shit/shit.jsx';
 import SuperPage from './features/pages/super/super.jsx';
+import Form from './features/pages/form/form.jsx';
 import { ROUTES } from './common/constants';
 import DefaultTheme from './assets/themes/default';
 
@@ -27,6 +28,7 @@ const Root = ({ store }) => ({
                   <DefaultLayout path={ROUTES.about} component={AboutPage} />
                   <DefaultLayout path={ROUTES.shit} component={ShitPage} />
                   <DefaultLayout path={ROUTES.super} component={SuperPage} />
+                  <DefaultLayout path={ROUTES.form} component={Form} />
                 </Switch>
               </App>
             </Router>
